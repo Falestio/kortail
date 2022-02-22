@@ -3,6 +3,12 @@
 /* === ROOT VARIABLE === */
 :root {
   --body-fonts: "Roboto", sans-serif;
+  --primary-color: #08BDBA;
+  --big-font-size: 3.5rem;
+  --h2-font-size: 2rem;
+  --h3-font-size: 1.75rem;
+  --normal-font-size: 1rem;
+
 }
 
 /* === BASE === */
@@ -16,6 +22,12 @@ body {
   font-family: var(--body-fonts);
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -26,14 +38,27 @@ img {
   display: block;
 }
 
+/* === UTILITY === */
+
 .section {
     padding-top: 3rem;
     padding-bottom: 2rem;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.icon {
+  width: 1rem;
+}
+
 /* === COMPONENTS === */
+
+/* ----------------- Buttons --------------------- */
 .btn {
-    display: inline-block;
     padding: 0.5rem 1rem;
     border: 1px solid #000;
     border-radius: 5px;
@@ -42,4 +67,45 @@ img {
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
+}
+
+/* ----------------- Accordion --------------------- */
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+/* Add icon */
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
