@@ -60,79 +60,121 @@
         background-color: rgb(85, 85, 235);
         margin-left: 4px;
       }
+
+      .center {
+        margin: 0 auto;
+      }
+
+      .w-full {
+        width: 100%;        
+      }
+
+      .flex-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .mt-8 {
+        margin-top: 1.2rem;
+      }
+
+      .hero-btns {
+        margin-bottom: 4rem;
+      }
+
+      .appie-hero-area {
+        background-color: #fafafa;
+      }
+
+      
+      .footer-navigation ul li a {
+        font-size: 18px;
+      }
+
+      .footer-navigation ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .footer-widget-info ul li a {
+        padding: 0;
+        margin: 0.5rem auto;
+      }
+
+      .btn-hero {
+        background-color: rgb(128, 128, 255);
+        color: #fff;
+        padding: 1rem 2rem;
+        border-radius: 10px;
+      }
+
+      .btn-hero:hover {
+        color: #fff;
+        transform: translateY(-5px);
+      }
     </style>
   </head>
   <body>
-        <!--====== APPIE HEADER PART START ======-->
 
-        <header class="appie-header-area appie-header-2-area appie-sticky">
-          <div class="container">
-            <div class="header-nav-box">
-              <div class="row align-items-center">
-                <div class="col-lg-2 col-md-4 col-sm-5 col-6 order-1 order-sm-1">
-                  <div class="appie-logo-box">
-                    <a href="./index.html">
-                      <img src="assets/images/logo-2.png" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="col-lg-8 col-md-1 col-sm-1 order-3 order-sm-2">
-                  <div class="appie-header-main-menu ">
-                    <ul>
-                      <li>
-                        <a href="./views/pojokumkm.html">Pojok UMKM</a>
-                      </li>
-                      <li>
-                        <a href="./views/penyedia-retail.html">Penyedia Jasa Retail <span class="badge">Coming soon</span></a>
-                      </li>
-                      <li>
-                        <a href="./views/teknologi-informasi-retail.html">Teknologi Informasi Retail <span class="badge">Coming soon</span></a>
-                      </li>
-                      <li>
-                        <a href="./views/about.html"">About</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+          <!--====== PART START ======-->
     
-    
-              </div>
-            </div>
-          </div>
-        </header>
-    
-        <!--====== APPIE HEADER PART ENDS ======-->
-
-    <!--====== APPIE HERO PART START ======-->
-
-    <section class="appie-hero-area appie-hero-4-area">
+    <header class="appie-header-area appie-header-3-area appie-sticky">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-5">
-            <div class="appie-hero-content appie-hero-content-4">
-              <h1 class="appie-title">Solusi untuk retailer dan Pelaku UMKM</h1>
-              <p>
-                Semua solusi untuk anda pelaku UMKM dan ingin membangun toko retailer
-              </p>
-              <a class="main-btn" href="#">Solusi Kami</a>
-            </div>
-          </div>
-          <div class="col-lg-7">
-            <div class="appie-hero-thumb appie-hero-thumb-4">
-              <img src="assets/images/hero-thumb-5.png" alt="" />
-              <div class="hero-dot">
-                <img src="assets/images/hero-dot.png" alt="" />
+          <div class="header-nav-box header-nav-box-3">
+              <div class="row align-items-center">
+                  <div class="col-lg-2 col-md-4 col-sm-5 col-6 order-1 order-sm-1">
+                      <div class="appie-logo-box">
+                          <a href="#">
+                              <img src="./assets/assets/kortail-logo.svg" alt="" style="max-width: 50px;">
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-lg-10 col-md-1 col-sm-1 order-3 order-sm-2">
+                      <div class="appie-header-main-menu">
+                        <ul>
+                          <li>
+                            <a class="text-white" href="./views/pojokumkm.html">Pojok UMKM</a>
+                          </li>
+                          <li>
+                            <a class="text-white" href="./views/comingsoon.html">Penyedia Jasa Retail <span class="badge">Coming soon</span></a>
+                          </li>
+                          <li>
+                            <a class="text-white" href="./views/comingsoon.html">Teknologi Informasi Retail <span class="badge">Coming soon</span></a>
+                          </li>
+                          <li>
+                            <a class="text-white" href="./views/about.html"">About</a>
+                          </li>
+                        </ul>
+                      </div>
+                  </div>
               </div>
-            </div>
           </div>
+      </div>
+  </header>
+  
+  <!--====== PART ENDS ======-->
+        
+   <!--====== APPIE HERO PART START ======-->
+    
+   <section class="appie-hero-area appie-hero-3-area">
+    <div class="container">
+        <div class="row  justify-content-center">
+            <div class="col-lg-12">
+                <div class="appie-hero-content text-center">
+                    <h1 class="appie-title">Menfasilitasi UMKM, Industri Retail, Mahasiswa, Pelajar serta Masyarakat</h1>
+                    <p></p>
+                    <div class="hero-btns">
+                        <a class="btn-hero" href="#features">Solusi Kami</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="hero-shape-1">
-        <img src="assets/images/shape/shape-10.png" alt="" />
-      </div>
-    </section>
+    </div>
+</section>
 
-    <!--====== APPIE HERO PART ENDS ======-->
+<!--====== APPIE HERO PART ENDS ======-->
 
     <!--====== APPIE ABOUT 3 PART START ======-->
 
@@ -145,7 +187,7 @@
               data-wow-duration="2000ms"
               data-wow-delay="400ms"
             >
-              <img src="assets/images/about-thumb-2.png" alt="" />
+              <img src="./assets/assets/kortail-pojokumkm-illust.png" alt="" />
             </div>
           </div>
           <div class="col-lg-6">
@@ -170,14 +212,14 @@
                   <div class="the-icon">
                     <img src="./assets/images/store.png" alt="" />
                   </div>
-                  <h5 class="title">Marketplac Online</h5>
+                  <h5 class="title">Marketplace Online</h5>
                   <p>Selain fisik, produkmu juga akan terlisting di marketplace online kami</p>
                 </div>
               </div>
               <div class="col-lg-12">
                 <div class="traffic-btn mt-50">
-                  <a class="main-btn" href="#"
-                    >Learn More <i class="fal fa-arrow-right"></i
+                  <a class="btn-hero" href="./views/pojokumkm.html"
+                    >Lihat Detail <i class="fal fa-arrow-right"></i
                   ></a>
                 </div>
               </div>
@@ -228,7 +270,7 @@
               data-wow-duration="2000ms"
               data-wow-delay="400ms"
             >
-              <img src="assets/images/about-thumb-3.png" alt="" />
+              <img src="./assets/assets/kortail-microretail-illust.png" alt="" />
             </div>
           </div>
         </div>
@@ -239,7 +281,7 @@
               data-wow-duration="2000ms"
               data-wow-delay="400ms"
             >
-              <img src="assets/images/about-thumb-2.png" alt="" />
+              <img src="./assets/assets/kortail-retailapplication-illust.png" alt="" />
             </div>
           </div>
           <div class="col-lg-6">
@@ -304,15 +346,8 @@
             <div class="appie-section-title">
               <h3 class="appie-title">Follow Instagram Kami di @kortailcom</h3>
               <p>
-                The full monty spiffing good time no biggie cack grub fantastic.
+                Dapatkan berita dan tawaran menarik tentang produk kami.
               </p>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-4">
-            <div class="appie-section-title text-right">
-              <a class="main-btn" href="#"
-                >View all Features <i class="fal fa-arrow-right"></i
-              ></a>
             </div>
           </div>
         </div>
@@ -320,7 +355,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="mt-30 wow animated fadeInUp">
               <img
-                src="assets/images/hero-thumb-5.png"
+                src="assets/assets/kortail-post3.jpg"
                 alt=""
                 class="instagram-hover"
               />
@@ -329,7 +364,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="mt-30 wow animated fadeInUp">
               <img
-                src="assets/images/hero-thumb-5.png"
+                src="assets/assets/kortail-post2.jpg"
                 alt=""
                 class="instagram-hover"
               />
@@ -338,7 +373,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="mt-30 wow animated fadeInUp">
               <img
-                src="assets/images/hero-thumb-5.png"
+                src="assets/assets/kortail-post1.jpg"
                 alt=""
                 class="instagram-hover"
               />
@@ -389,20 +424,21 @@
               data-wow-delay="0ms"
             >
               <div class="row">
-                <div class="col-lg-6">
-                  <div class="appie-project-content">
+                <div class="col-lg-6 center">
+                  <div class="appie-project-content flex-center text-center">
                     <h3 class="title">Mulai bekerja sama dengan Koral Retail</h3>
                     <p>Diskusikan layanan yang ingin Anda gunakan</p>
-                    <form action="#">
-                      <div class="input-box mt-30">
-                        <button>Subscribe</button>
-                      </div>
+                    <form action="#" class="w-full">
+                      <div class="input-box mt-8 center w-full">
+                        <button class="center w-full">
+                          <img
+                            src="./../assets/svg/icons8-whatsapp.svg"
+                            style="margin-right: 0.3rem"
+                          />Kontak Kami
+                        </button>                      </div>
                     </form>
                   </div>
                 </div>
-              </div>
-              <div class="appie-project-thumb">
-                <img src="assets/images/project-thumb.png" alt="" />
               </div>
             </div>
           </div>
@@ -420,71 +456,52 @@
           <div class="col-lg-4 col-md-6">
             <div class="footer-about-widget">
               <div class="logo">
-                <a href="#"><img src="assets/images/logo.png" alt="" /></a>
+                  <img src="./assets/assets/kortail-logo.svg" alt="" style="max-width: 50px;"/>
               </div>
               <p>
-                Appie WordPress is theme is the last theme you will ever have.
+                Follow akun Instagram kami untuk mendapatkan update terbaru
+                tentang produk dan promo 
               </p>
-              <a href="#">Read More <i class="fal fa-arrow-right"></i></a>
-              <div class="social mt-30">
-                <ul>
-                  <li>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                  </li>
-                </ul>
-              </div>
+              <a href="https://www.instagram.com/kortailcom/" class="instagram-button" target="_blank">
+                <img src="./../assets/svg/icons8-instagram.svg" alt="">
+                @Kortailcom
+              </a>
             </div>
           </div>
-          <div class="col-lg-2 col-md-6">
+          <div class="col-lg-4 col-md-6">
             <div class="footer-navigation">
-              <h4 class="title">Company</h4>
+              <h4 class="title">Daftar Halaman</h4>
               <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Case Studies</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-navigation">
-              <h4 class="title">Support</h4>
-              <ul>
-                <li><a href="#">Community</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Faqs</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Careers</a></li>
+                <li><a href="./views/pojokumkm.html">Pojok UMKM</a></li>
+                <li><a href="./views/penyedia-retail.html">Mikroretail</a></li>
+                <li><a href="./views/teknologi-informasi-retail.html">Teknologi Retail</a></li>
+                <li><a href="./views/about.html">Tentang</a></li>
               </ul>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="footer-widget-info">
-              <h4 class="title">Get In Touch</h4>
+              <h4 class="title">Kontak</h4>
               <ul>
                 <li>
                   <a href="#"
-                    ><i class="fal fa-envelope"></i> support@appie.com</a
+                    ><img src="./../assets/svg/icons8-whatsapp.svg" alt="" />
+                    +6289629015667</a
                   >
                 </li>
                 <li>
-                  <a href="#"><i class="fal fa-phone"></i> +(642) 342 762 44</a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fal fa-map-marker-alt"></i> 442 Belle Terre St
-                    Floor 7, San Francisco, AV 4206</a
-                  >
+                  <a
+                  href="https://www.google.com/maps/place/Gedung+Selaru/@-6.9731495,107.6329482,20.22z/data=!4m5!3m4!1s0x2e68e9adfa94ea11:0x829708a0be0d947c!8m2!3d-6.9730711!4d107.6328042"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./../assets/svg/icons8-map-pin-66.svg"
+                    style="width: 25px"
+                  />
+                  Ko+Lab Fakultas Ulmu Terapan, Ged. Selaru Lt,4 - Telkom
+                  University, Jl. Telekomunikasi no 1. Bandung</a
+                >
                 </li>
               </ul>
             </div>
@@ -495,23 +512,8 @@
             <div
               class="footer-copyright d-flex align-items-center justify-content-between pt-35"
             >
-              <div class="apps-download-btn">
-                <ul>
-                  <li>
-                    <a href="#"
-                      ><i class="fab fa-apple"></i> Download for iOS</a
-                    >
-                  </li>
-                  <li>
-                    <a class="item-2" href="#"
-                      ><i class="fab fa-google-play"></i> Download for
-                      Android</a
-                    >
-                  </li>
-                </ul>
-              </div>
               <div class="copyright-text">
-                <p>Copyright © 2021 Appie. All rights reserved.</p>
+                <p>Copyright © 2022 Kortail. All rights reserved.</p>
               </div>
             </div>
           </div>

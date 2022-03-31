@@ -1743,8 +1743,6 @@ transform: scaleY(1);
     background-position: 6% 100%;
     padding-top: 140px;
     padding-bottom: 60px; }
-  .appie-hero-area.appie-hero-6-area {
-    background-image: url(../images/hero-bg-3.jpg); }
   .appie-hero-area.appie-hero-7-area {
     background-image: url(../images/hero-bg-4.png); }
   .appie-hero-area.appie-hero-8-area {
@@ -7021,4 +7019,17 @@ i {font-family: 'Font Awesome 5 Pro';
   width: 3rem;
   margin-bottom: 1.5rem;
 
+}
+
+.instagram-button {
+  box-sizing: border-box;
+  padding: 4px 8px;
+  border-radius: 10px;
+  border: 2px solid rgb(85, 85, 235);
+  margin-top: 0.5rem;
+}
+
+.appie-logo-box {
+  display: flex;
+  align-items: flex-end;
 }

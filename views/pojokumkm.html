@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pojok UMKM</title>
     <!--====== Favicon Icon ======-->
-    <link
-      rel="shortcut icon"
-      href="../favicon.icon"
-      type="image/png"
-    />
+    <link rel="shortcut icon" href="../favicon.icon" type="image/png" />
 
     <!--====== Bootstrap css ======-->
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
@@ -41,65 +37,139 @@
       .text-white {
         color: #fff;
       }
+
+      .hero-area {
+        height: 80vh;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        background-color: #f3f3f3;
+      }
+
+      .steps {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        gap: 1rem;
+      }
+
+      .steps-card {
+        padding: 2.3rem;
+        border-radius: 0.5rem;
+        background-color: #fff;
+        border: 2px solid rgb(85, 85, 235);
+        width: 100%;
+      }
+
+      .steps-card h4 {
+        margin-bottom: 0.5rem;
+      }
+
+      .badge {
+        font-size: 12px;
+        padding: 3px 7px;
+        color: #fff;
+        background-color: rgb(85, 85, 235);
+        margin-left: 4px;
+        cursor: pointer;
+      }
+
+      .flex-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .center {
+        margin: 0 auto;
+      }
+
+      .mt-8 {
+        margin-top: 1.2rem;
+      }
+
+      .footer-navigation ul li a {
+        font-size: 18px;
+      }
+
+      .footer-navigation ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .footer-widget-info ul li a {
+        padding: 0;
+        margin: 0.5rem auto;
+      }
+
+      .instagram-button {
+        box-sizing: border-box;
+        padding: 4px 8px;
+        border-radius: 10px;
+        border: 2px solid rgb(85, 85, 235);
+        margin-top: 0.5rem;
+      }
     </style>
   </head>
   <body>
-        <!--====== APPIE HEADER PART START ======-->
+    <!--====== APPIE HEADER PART START ======-->
 
-        <header class="appie-header-area appie-header-2-area appie-sticky">
-          <div class="container">
-            <div class="header-nav-box">
-              <div class="row align-items-center">
-                <div class="col-lg-2 col-md-4 col-sm-5 col-6 order-1 order-sm-1">
-                  <div class="appie-logo-box">
-                    <a href="./../index.html">
-                      <img src="../assets/images/logo-2.png" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="col-lg-8 col-md-1 col-sm-1 order-3 order-sm-2">
-                  <div class="appie-header-main-menu ">
-                    <ul>
-                      <li>
-                        <a href="pojokumkm.html">Pojok UMKM</a>
-                      </li>
-                      <li>
-                        <a href="comingsoon.html">Penyedia Jasa Retail</a>
-                      </li>
-                      <li>
-                        <a href="comingsoon.html">Teknologi Informasi Retail</a>
-                      </li>
-                      <li>
-                        <a href="about.html">About</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-    
-    
+    <header class="appie-header-area appie-header-2-area appie-sticky">
+      <div class="container">
+        <div class="header-nav-box">
+          <div class="row align-items-center">
+            <div class="col-lg-2 col-md-4 col-sm-5 col-6 order-1 order-sm-1">
+              <div class="appie-logo-box">
+                <a href="./../index.html">
+                  <img
+                    src="./../assets/assets/kortail-logo.svg"
+                    alt=""
+                    style="max-width: 50px"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-1 col-sm-1 order-3 order-sm-2">
+              <div class="appie-header-main-menu">
+                <ul>
+                  <li>
+                    <a href="pojokumkm.html">Pojok UMKM</a>
+                  </li>
+                  <li>
+                    <a href="comingsoon.html"
+                      >Penyedia Jasa Retail
+                      <span class="badge">Coming soon</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="comingsoon.html"
+                      >Teknologi Informasi Retail
+                      <span class="badge">Coming soon</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="about.html">About</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-        </header>
-    
-        <!--====== APPIE HEADER PART ENDS ======-->
+        </div>
+      </div>
+    </header>
+
+    <!--====== APPIE HEADER PART ENDS ======-->
     <!--====== APPIE HERO PART START ======-->
 
-    <section class="appie-hero-area appie-hero-6-area">
+    <section class="appie-hero-area appie-hero-6-area hero-area">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="appie-hero-thumb-6">
-              <div
-                class="thumb wow animated fadeInUp"
-                data-wow-duration="1000ms"
-                data-wow-delay="600ms"
-              >
-                <img src="../assets/images/hero-thumb-7.png" alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
+          <div class="col-lg-12">
             <div class="appie-hero-content appie-hero-content-6">
               <h1 class="appie-title">
                 Produk UMKM Sulit Dapat Retailer? Pojok UMKM Aja!
@@ -108,7 +178,7 @@
                 Masukin Produk dan tinggal tunggu hasil doang! daftar mudah
                 komisi baik, gabung ke koral retail sekarang
               </p>
-              <a class="main-btn mt-4" href="#">Baca Persyaratan</a>
+              <a class="main-btn mt-4" href="#cara-daftar">Cara Daftar</a>
             </div>
           </div>
         </div>
@@ -125,8 +195,8 @@
     >
       <div class="container">
         <div class="row align-items-end">
-          <div class="col-lg-6 col-md-8">
-            <div class="appie-section-title">
+          <div class="col-lg-12 col-md-8">
+            <div class="appie-section-title text-center">
               <h3 class="appie-title">Gabung Pojok UMKM Dijamin Untung!</h3>
               <p>Berbagai keuntungan bergabung di Koral Retail</p>
             </div>
@@ -144,7 +214,6 @@
               </div>
               <h4 class="title">Pendaftaran produk mudah</h4>
               <p>Proses pendaftaran jelas, mudah dan cepat</p>
-              <a href="#">Read More <i class="fal fa-arrow-right"></i></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
@@ -158,7 +227,6 @@
               </div>
               <h4 class="title">Komisi rendah</h4>
               <p>Kami mengambil bagian 10% dari setiap transaksi</p>
-              <a href="#">Read More <i class="fal fa-arrow-right"></i></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
@@ -172,7 +240,6 @@
               </div>
               <h4 class="title">Pembayaran Tepat Waktu</h4>
               <p>Dengan Pencatatan yang rapi, bagi hasilpun lancar</p>
-              <a href="#">Read More <i class="fal fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -185,214 +252,37 @@
 
     <section
       class="appie-features-area appie-features-6-area pb-80"
-      id="features"
+      id="cara-daftar"
     >
       <div class="container">
-        <div class="appie-section-title text-center mb-8">
+        <div class="appie-section-title text-center">
           <h3 class="appie-title">Cara Daftar Produk di Pojok UMKM</h3>
         </div>
-        <div class="row align-items-center mt-4">
-          <div class="col-lg-3">
-            <div class="appie-features-tabs-btn">
-              <div
-                class="nav flex-column nav-pills"
-                id="v-pills-tab"
-                role="tablist"
-                aria-orientation="vertical"
-              >
-                <a
-                  class="nav-link active"
-                  id="v-pills-home-tab"
-                  data-toggle="pill"
-                  href="#v-pills-home"
-                  role="tab"
-                  aria-controls="v-pills-home"
-                  aria-selected="true"
-                  >1. Isi form pendaftaran</a
-                >
-                <a
-                  class="nav-link"
-                  id="v-pills-profile-tab"
-                  data-toggle="pill"
-                  href="#v-pills-profile"
-                  role="tab"
-                  aria-controls="v-pills-profile"
-                  aria-selected="false"
-                  >2. Produk
-                  diseleksi</a
-                >
-                <a
-                  class="nav-link"
-                  id="v-pills-messages-tab"
-                  data-toggle="pill"
-                  href="#v-pills-messages"
-                  role="tab"
-                  aria-controls="v-pills-messages"
-                  aria-selected="false"
-                  >3. Produk di listing di etalase
-                  fisik dan marketplace online</a
-                >
-                <a
-                  class="nav-link"
-                  id="v-pills-settings-tab"
-                  data-toggle="pill"
-                  href="#v-pills-settings"
-                  role="tab"
-                  aria-controls="v-pills-settings"
-                  aria-selected="false"
-                  >4. Nikmati Hasil</a
-                >
-              </div>
-            </div>
+
+        <div class="steps">
+          <div class="steps-card">
+            <h4>1. Isi form pendaftaran</h4>
+            <p>
+              Isi form pendaftaran berikut untuk memasukkan data tantang barang
+              yang ingin anda jual <span class="badge">Form Pendaftaran</span>
+            </p>
           </div>
-          <div class="col-lg-9">
-            <div class="tab-content" id="v-pills-tabContent">
-              <div
-                class="tab-pane fade show active"
-                id="v-pills-home"
-                role="tabpanel"
-                aria-labelledby="v-pills-home-tab"
-              >
-                <div class="row align-items-center">
-                  <div class="col-lg-6">
-                    <div
-                      class="appie-features-thumb text-center wow animated fadeInUp"
-                      data-wow-duration="2000ms"
-                      data-wow-delay="200ms"
-                    >
-                      <img src="../assets/images/features-thumb-1.png" alt="" />
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div
-                      class="appie-features-content wow animated fadeInRight"
-                      data-wow-duration="2000ms"
-                      data-wow-delay="600ms"
-                    >
-                      <h3 class="title">
-                        Isi Form <br />
-                        Pendaftaran
-                      </h3>
-                      <p>
-                        Setelah memenuhi persyaratan, daftarkan produkmu di form
-                        berikut
-                      </p>
-                      <a class="main-btn" href="#">Form</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="tab-pane fade"
-                id="v-pills-profile"
-                role="tabpanel"
-                aria-labelledby="v-pills-profile-tab"
-              >
-                <div class="row align-items-center">
-                  <div class="col-lg-6">
-                    <div
-                      class="appie-features-thumb text-center animated fadeInUp"
-                      data-wow-duration="2000ms"
-                      data-wow-delay="200ms"
-                    >
-                      <img src="../assets/images/features-thumb-1.png" alt="" />
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div
-                      class="appie-features-content animated fadeInRight"
-                      data-wow-duration="2000ms"
-                      data-wow-delay="600ms"
-                    >
-                      <h3 class="title">
-                        Produk <br />
-                        Diseleksi
-                      </h3>
-                      <p>
-                        Tim kami akan melakukan seleksi terhadap produk Anda
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="tab-pane fade"
-                id="v-pills-messages"
-                role="tabpanel"
-                aria-labelledby="v-pills-messages-tab"
-              >
-                <div class="row align-items-center">
-                  <div class="col-lg-6">
-                    <div
-                      class="appie-features-thumb text-center animated fadeInUp"
-                      data-wow-duration="2000ms"
-                      data-wow-delay="200ms"
-                    >
-                      <img src="../assets/images/features-thumb-1.png" alt="" />
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div
-                      class="appie-features-content animated fadeInRight"
-                      data-wow-duration="2000ms"
-                      data-wow-delay="600ms"
-                    >
-                      <h3 class="title">
-                        Produk Dislisting <br />
-                        di Etalase fisik dan marketplace online
-                      </h3>
-                      <p>
-                        Jika lolos, produk Anda akan segera di pajang di salah
-                        satu etalase kami
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="tab-pane fade"
-                id="v-pills-settings"
-                role="tabpanel"
-                aria-labelledby="v-pills-settings-tab"
-              >
-                <div class="row align-items-center">
-                  <div class="col-lg-6">
-                    <div
-                      class="appie-features-thumb text-center animated fadeInUp"
-                      data-wow-duration="2000ms"
-                      data-wow-delay="200ms"
-                    >
-                      <img src="../assets/images/features-thumb-1.png" alt="" />
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div
-                      class="appie-features-content animated fadeInRight"
-                      data-wow-duration="2000ms"
-                      data-wow-delay="600ms"
-                    >
-                      <h3 class="title">Nikmati Hasil</h3>
-                      <p>
-                        Kami akan mengurus penjualan produk Anda, dan hasil akan
-                        dibagi di waktu yang telah ditentukan
-                      </p>
-                      <a class="main-btn" href="#">Learn More</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="steps-card">
+            <h4>2. Pengecekan barang</h4>
+            <p>Kami akan melakukan pengecekan pada barang Anda</p>
+          </div>
+          <div class="steps-card">
+            <h4>3. Barang dikonfirmasi telah memenuhi syarat</h4>
+            <p>Kami akan memberitahu Anda jika barang telah memenuhi syarat</p>
+          </div>
+          <div class="steps-card">
+            <h4>4. Mulai jualan</h4>
+            <p>
+              Setelah mendapatkan pemberitahuan barang disetujui, kamu tinggal
+              menyetok barang ke etalase Pojok UMKM dan nikmati hasil 😃
+            </p>
           </div>
         </div>
-      </div>
-      <div class="features-shape-1">
-        <img src="../assets/images/shape/shape-6.png" alt="" />
-      </div>
-      <div class="features-shape-2">
-        <img src="../assets/images/shape/shape-7.png" alt="" />
-      </div>
-      <div class="features-shape-3">
-        <img src="../assets/images/shape/shape-8.png" alt="" />
       </div>
     </section>
 
@@ -465,21 +355,28 @@
               data-wow-delay="0ms"
             >
               <div class="row">
-                <div class="col-lg-6">
-                  <div class="appie-project-content">
-                    <h3 class="title">Gabung jadi mitra kami</h3>
-                    <p>Daftarkan produk Anda sekarang atau hubungi kami jika ada pertanyaam</p>
-                    <form action="#">
-                      <div class="input-box mt-30">
-                        <button>Daftarkan Produk Anda</button>
-                        <button>Hubungi Kami</button>
+                <div class="col-lg-6 center">
+                  <div class="appie-project-content flex-center text-center">
+                    <h3 class="title" style="margin-bottom: 0.8rem">
+                      Daftarkan produkmu sekarang juga!
+                    </h3>
+                    <p style="margin-bottom: 0.8rem">
+                      Isi form pendaftaran atau diskusikan produk Anda dengan
+                      kami
+                    </p>
+                    <form action="#" class="w-full">
+                      <div class="input-box mt-8 center w-full">
+                        <button class="center w-full">
+                          <img
+                            src="./../assets/svg/icons8-whatsapp.svg"
+                            style="margin-right: 0.3rem"
+                          />Kontak Kami
+                        </button>
+                        <button>Form Pendaftaran</button>
                       </div>
                     </form>
                   </div>
                 </div>
-              </div>
-              <div class="appie-project-thumb">
-                <img src="../assets/images/project-thumb.png" alt="" />
               </div>
             </div>
           </div>
@@ -497,70 +394,61 @@
           <div class="col-lg-4 col-md-6">
             <div class="footer-about-widget">
               <div class="logo">
-                <a href="#"><img src="../assets/images/logo.png" alt="" /></a>
+                <a href="./../index.html">
+                  <img
+                    src="./../assets/assets/kortail-logo.svg"
+                    alt=""
+                    style="max-width: 50px"
+                  />
+                </a>
               </div>
               <p>
-                Appie WordPress is theme is the last theme you will ever have.
+                Follow akun Instagram kami untuk mendapatkan update terbaru
+                tentang produk dan promo
               </p>
-              <a href="#">Read More <i class="fal fa-arrow-right"></i></a>
-              <div class="social mt-30">
-                <ul>
-                  <li>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                  </li>
-                </ul>
-              </div>
+              <a href="https://www.instagram.com/kortailcom/" class="instagram-button" target="_blank">
+                <img src="./../assets/svg/icons8-instagram.svg" alt="">
+                @Kortailcom
+              </a>
             </div>
           </div>
-          <div class="col-lg-2 col-md-6">
+          <div class="col-lg-4 col-md-6">
             <div class="footer-navigation">
-              <h4 class="title">Company</h4>
+              <h4 class="title">Daftar Halaman</h4>
               <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Case Studies</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-navigation">
-              <h4 class="title">Support</h4>
-              <ul>
-                <li><a href="#">Community</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Faqs</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Careers</a></li>
+                <li><a href="./pojokumkm.html">Pojok UMKM</a></li>
+                <li><a href="./penyedia-retail.html">Mikroretail</a></li>
+                <li>
+                  <a href="./teknologi-informasi-retail.html"
+                    >Teknologi Retail</a
+                  >
+                </li>
+                <li><a href="./about.html">Tentang</a></li>
               </ul>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="footer-widget-info">
-              <h4 class="title">Get In Touch</h4>
+              <h4 class="title">Kontak</h4>
               <ul>
                 <li>
                   <a href="#"
-                    ><i class="fal fa-envelope"></i> support@appie.com</a
+                    ><img src="./../assets/svg/icons8-whatsapp.svg" alt="" />
+                    +6289629015667</a
                   >
                 </li>
                 <li>
-                  <a href="#"><i class="fal fa-phone"></i> +(642) 342 762 44</a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fal fa-map-marker-alt"></i> 442 Belle Terre St
-                    Floor 7, San Francisco, AV 4206</a
+                  <a
+                    href="https://www.google.com/maps/place/Gedung+Selaru/@-6.9731495,107.6329482,20.22z/data=!4m5!3m4!1s0x2e68e9adfa94ea11:0x829708a0be0d947c!8m2!3d-6.9730711!4d107.6328042"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="./../assets/svg/icons8-map-pin-66.svg"
+                      style="width: 25px"
+                    />
+                    Ko+Lab Fakultas Ulmu Terapan, Ged. Selaru Lt,4 - Telkom
+                    University, Jl. Telekomunikasi no 1. Bandung</a
                   >
                 </li>
               </ul>
@@ -572,23 +460,8 @@
             <div
               class="footer-copyright d-flex align-items-center justify-content-between pt-35"
             >
-              <div class="apps-download-btn">
-                <ul>
-                  <li>
-                    <a href="#"
-                      ><i class="fab fa-apple"></i> Download for iOS</a
-                    >
-                  </li>
-                  <li>
-                    <a class="item-2" href="#"
-                      ><i class="fab fa-google-play"></i> Download for
-                      Android</a
-                    >
-                  </li>
-                </ul>
-              </div>
               <div class="copyright-text">
-                <p>Copyright © 2021 Appie. All rights reserved.</p>
+                <p>Copyright © 2022 Kortail. All rights reserved.</p>
               </div>
             </div>
           </div>
